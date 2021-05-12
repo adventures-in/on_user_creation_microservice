@@ -1,5 +1,5 @@
-name: on_user_creation_microservice
-description: A Dart microservice that triggers in response to the creation of Firebase user accounts, built with Dart Functions Framework.
+name: on_user_created
+description: Receive CloudEvents on user creation and save data to Firestore.
 # version: 0.1.0
 # homepage: https://www.example.com
 publish_to: none
@@ -10,10 +10,14 @@ environment:
 dependencies:
   functions_framework: ^0.4.0
   shelf: ^1.0.0
+  googleapis: ^2.0.0
+  googleapis_auth: ^1.1.0
+  json_annotation: ^4.0.1
 
 dev_dependencies:
-  build_runner: ^1.10.2
-  functions_framework_builder: ^0.4.0
-  http: ^0.13.0
-  test: ^1.15.0
+  json_serializable: ^4.1.1
+  build_runner: ^2.0.2
+  functions_framework_builder: ^0.4.1
+  http: ^0.13.3
+  test: ^1.17.3
   test_process: ^2.0.0

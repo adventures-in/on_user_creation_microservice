@@ -1,6 +1,15 @@
-POST http://localhost:8080 HTTP/1.1
-content-type: application/json
+import 'dart:async';
 
+import 'package:http/http.dart';
+
+FutureOr<void> main() async {
+  const requestUrl = 'http://localhost:8080';
+
+  const headers = {
+    'content-type': 'application/json',
+  };
+
+  const body = r'''
 {
   "specversion": "1.0",
   "type": "google.cloud.pubsub.topic.publish",
@@ -18,4 +27,9 @@ content-type: application/json
       "data": "dGVzdCBtZXNzYWdlIDM="
     }
   }
+}''';
+
+  final response =
+      await post(Uri.parse(requestUrl), headers: headers, body: body);
+  print('response.statusCode: ${response.statusCode}');
 }

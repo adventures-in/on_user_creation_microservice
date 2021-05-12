@@ -14,8 +14,7 @@
 // limitations under the License.
 
 import 'package:functions_framework/serve.dart';
-import 'package:on_user_creation_microservice/functions.dart'
-    as function_library;
+import 'package:on_user_created/functions.dart' as function_library;
 
 Future<void> main(List<String> args) async {
   await serve(args, _nameToFunctionTarget);

@@ -1,0 +1,26 @@
+{
+  "uid": "SBQ9MZk6vzfdPMqYcf3rgwKplf42",
+  "email": "nick@enspyr.co",
+  "emailVerified": true,
+  "displayName": "Nick Meinhold",
+  "photoURL": "https://lh3.googleusercontent.com/a-/AOh14Gg3kDxgrazN4pJUB3BUyWQ1bFdNz3BNCc5_vOO3=s96-c",
+  "phoneNumber": null,
+  "disabled": false,
+  "passwordHash": null,
+  "passwordSalt": null,
+  "tokensValidAfterTime": null,
+  "metadata": {
+    "creationTime": "2021-05-11T13:17:09Z",
+    "lastSignInTime": "2021-05-11T13:17:09Z"
+  },
+  "customClaims": {},
+  "providerData": [
+    {
+      "displayName": "Nick Meinhold",
+      "email": "nick@enspyr.co",
+      "photoURL": "https://lh3.googleusercontent.com/a-/AOh14Gg3kDxgrazN4pJUB3BUyWQ1bFdNz3BNCc5_vOO3=s96-c",
+      "providerId": "google.com",
+      "uid": "101117046977292854395"
+    }
+  ]
+}

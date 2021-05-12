@@ -5,7 +5,7 @@ import 'package:http/http.dart';
 import 'package:test/test.dart';
 import 'package:test_process/test_process.dart';
 
-import 'src/test_utils.dart';
+import 'test_utils.dart';
 
 void main() {
   group('binary-mode message', () {
@@ -48,7 +48,7 @@ void main() {
 
       expect(
         json,
-        {
+        <String, dynamic>{
           'id': '1234-1234-1234',
           'specversion': '1.0',
           'type': 'google.cloud.pubsub.topic.publish',
@@ -100,7 +100,7 @@ void main() {
 
       expect(
         json,
-        {
+        <String, dynamic>{
           ...jsonDecode(body) as Map<String, dynamic>,
           'datacontenttype': 'application/json; charset=utf-8',
         },
