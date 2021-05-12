@@ -6,6 +6,10 @@ The service relies on auth user data being published to PubSub - currently (May 
 
 See [How to connect a Cloud Function to a Dart microservice with Pub/Sub](https://docs.google.com/document/d/1my_JXczhuYlWiKRE59nc0XFHYudEFpymPeGNSJFIIsM)
 
+## Using the microservice 
+
+- in `lib/functions.dart` update PROJECT_ID and COLLECTION
+
 ## docs 
 
 [generated_readme](docs/generated_readme.md)

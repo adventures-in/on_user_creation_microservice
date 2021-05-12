@@ -6,8 +6,8 @@ import 'package:googleapis_auth/auth_io.dart';
 import 'package:on_user_created/auth_user_data.dart';
 import 'package:on_user_created/user_data_extensions.dart';
 
-const String projectId = 'domain-visualiser';
-const String collection = 'profiles';
+const String projectId = 'PROJECT_ID';
+const String collection = 'COLLECTION';
 const _encoder = JsonEncoder.withIndent(' ');
 
 @CloudFunction()
