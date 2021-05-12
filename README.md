@@ -1,4 +1,4 @@
-# on_user_created
+# on_user_creation_microservice
 
 Receive CloudEvents on user creation and save data to Firestore.
 
