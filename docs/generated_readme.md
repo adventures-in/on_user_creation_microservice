@@ -82,7 +82,7 @@ Listening on :8080
 From another terminal, trigger the CloudEvent by posting event data:
 
 ```shell
-$ curl --data-binary @dart_functions/on_user_created/test/data/base64_cloud_event_data.json -H 'content-type: application/json' -w '%{http_code}\n' localhost:8080
+$ curl --data-binary @test/data/base64_cloud_event_data.json -H 'content-type: application/json' -w '%{http_code}\n' localhost:8080
 200
 ```
 
