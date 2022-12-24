@@ -1,5 +1,7 @@
 # on_user_creation_microservice
 
+[Project Notes](https://www.notion.so/enspyrco/On-User-Creation-bff3b3391fb8405d921ce73b1d3647b8)
+
 Receive CloudEvents on user creation and save data to Firestore.
 
 The service relies on auth user data being published to PubSub - currently (May 2021) there is no support for Firebase auth triggers with Eventarc so we must use our the custom Firebase extension[publish_new_user_data](https://github.com/Adventures-In/publish_new_user_data_firebase_extension).
